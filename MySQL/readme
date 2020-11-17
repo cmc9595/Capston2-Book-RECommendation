@@ -1,0 +1,8 @@
+AWS Ubuntu 접속방법
+
+hostname : ubuntu@ec2-34-229-136-176.compute-1.amazonaws.com
+port : 22
+
+id(option) : ubuntu
+
+putty로 올려논 mykey.ppk 키파일등록해서 로그인하면됩니다.

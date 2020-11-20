@@ -1,3 +1,8 @@
+create_table.py - 테이블 만들고 제목, 키워드 insert
+drop_table.py - 테이블 drop
+
+
+---------------------------------------------------------------
 AWS Ubuntu 접속방법
 
 hostname : ubuntu@ec2-34-229-136-176.compute-1.amazonaws.com

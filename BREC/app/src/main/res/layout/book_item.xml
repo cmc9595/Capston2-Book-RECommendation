@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <!--image, title, userRating, pubData, director, actor -->
+
+    <ImageView
+        android:id="@+id/iv_poster"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:contentDescription="NoImage"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/bk_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="title" />
+
+        <TextView
+            android:id="@+id/bk_pub_data"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="pubDate" />
+
+        <TextView
+            android:id="@+id/bk_author"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="author" />
+
+        <TextView
+            android:id="@+id/bk_publisher"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="publisher" />
+
+        <TextView
+            android:id="@+id/bk_price"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="price" />
+
+    </LinearLayout>
+
+</LinearLayout>

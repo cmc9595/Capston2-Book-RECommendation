@@ -2,7 +2,7 @@ import pymysql.cursors
 
 def create_table():
 
-    conn = pymysql.connect(host='localhost', user='cmc9595', password='myungchul123', db= 'bvector', charset='utf8mb4')
+    conn = pymysql.connect(host='localhost', user='cmc9595', password='myungchul123', db= 'BREC', charset='utf8mb4')
 
     sql = '''
             CREATE TABLE bvector(
@@ -21,7 +21,7 @@ def create_table():
 
 def insert_table(sql):
 
-    conn = pymysql.connect(host='localhost', user='cmc9595', password='myungchul123', db= 'bvector', charset='utf8mb4')
+    conn = pymysql.connect(host='localhost', user='cmc9595', password='myungchul123', db= 'BREC', charset='utf8mb4')
 
     try:
         with conn.cursor() as curs:
